@@ -14,6 +14,7 @@
 		6116CAD92335BFD70016FB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6116CAD72335BFD70016FB94 /* LaunchScreen.storyboard */; };
 		6116CAE42335BFD70016FB94 /* swooshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116CAE32335BFD70016FB94 /* swooshTests.swift */; };
 		6116CAEF2335BFD70016FB94 /* swooshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116CAEE2335BFD70016FB94 /* swooshUITests.swift */; };
+		6116CAFE233864D30016FB94 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116CAFD233864D30016FB94 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6116CAEA2335BFD70016FB94 /* swooshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swooshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6116CAEE2335BFD70016FB94 /* swooshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swooshUITests.swift; sourceTree = "<group>"; };
 		6116CAF02335BFD70016FB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6116CAFD233864D30016FB94 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		6116CACD2335BFD60016FB94 /* swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				6116CAFC2338646E0016FB94 /* Views */,
 				6116CACE2335BFD60016FB94 /* AppDelegate.swift */,
 				6116CAD02335BFD60016FB94 /* ViewController.swift */,
 				6116CAD22335BFD60016FB94 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				6116CAF02335BFD70016FB94 /* Info.plist */,
 			);
 			path = swooshUITests;
+			sourceTree = "<group>";
+		};
+		6116CAFC2338646E0016FB94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6116CAFD233864D30016FB94 /* BorderButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				6116CAD12335BFD60016FB94 /* ViewController.swift in Sources */,
 				6116CACF2335BFD60016FB94 /* AppDelegate.swift in Sources */,
+				6116CAFE233864D30016FB94 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
